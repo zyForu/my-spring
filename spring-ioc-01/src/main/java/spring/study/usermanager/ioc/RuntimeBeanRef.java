@@ -7,6 +7,11 @@ package spring.study.usermanager.ioc;
 public class RuntimeBeanRef {
     private String refName;
 
+
+    public RuntimeBeanRef(String refName) {
+        this.refName = refName;
+    }
+
     public String getRefName() {
         return refName;
     }

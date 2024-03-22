@@ -13,6 +13,8 @@ import java.util.Map;
 public class UserServiceImpl implements UserSerivce{
     private UserDao userDao;
 
+    public UserServiceImpl() {
+    }
 
     public UserServiceImpl(UserDao userDao) {
         this.userDao = userDao;

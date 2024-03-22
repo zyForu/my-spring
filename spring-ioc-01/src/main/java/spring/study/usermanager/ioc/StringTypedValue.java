@@ -8,6 +8,12 @@ public class StringTypedValue {
     private Class<?> targetType;
     private String  value;
 
+
+    public StringTypedValue(Class<?> targetType, String value) {
+        this.targetType = targetType;
+        this.value = value;
+    }
+
     public Class<?> getTargetType() {
         return targetType;
     }

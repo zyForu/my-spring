@@ -122,7 +122,6 @@ public class Test01 {
         bd.setClazz(resolveClass(classNm));
 
         //处理property
-
         List<Element> elements = element.elements();
         for (Element ele: elements) {
             bd.addPropertyValue(resolveProperValue(bd, ele));
